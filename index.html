@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Farhiya's Portfoli:Home</title>
+	<meta name="description" content="Website for my Computer science classes">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<img src="images/Screen Shot 2024-04-27 at 5.44.14 PM.png" alt="logo" height="400" width="500" class="img-fluid logo">
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="game.html">Game</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</nav>
+	
+	<div id="home-hero">
+		
+		<h1>Welcome to my portfolio</h1>
+	</div>
+
+	<main>
+		<h2>About Me</h2>
+		<hr>
+		<img src="images/representative.jpg" height="300" width="400" alt="representative photo" class="image">
+
+		<p>My name is Farhiya and I am a sophomore at Saint Paul College in St. Paul, Minnesota. My planned graduation date is May 2026. I made this website as a portfolio of my skills developing websites.</p>
+		<p>I have taken the following classes at Saint Paul College:</p>
+			<li>Web Fundamentals, where I learned HTML and CSS</li>
+			<li>Computer Science and Information Systems</li>
+			<li>Introduction to Computing and Programming Concepts</li>
+		<p>Next semester I will be transfering to the University of Minnesota. I am also planning to get my bachelor's degree in Computer Science.<p>
+
+		<p>My hobbies include astronomy, reading all sorts of books, and learning languages.</p>
+		</p>
+
+		<div class="container-fluid">
+			<div class="col-sm-6">
+
+		        <i class="fa fa-leaf" aria-hidden="true">Resume</i>
+		        	<p>My resume</p>
+
+		        <i class="fa fa-circle" aria-hidden="true">Portfolio</i>
+		        	<p>My portfolio</p>
+		        <i class="fa fa-gamepad" aria-hidden="true">JavaScript Game</i>
+		        	<p>My custom version of the W3 Schools JavaScript game</p>
+
+		    </div>
+		
+		</div>
+
+
+
+
+
+
+
+		<hr>
+
+		<h2>Art Gallery</h2>
+		<p>I made this photo gallery in JavaScript that has some art and scuptures I liked on Pixabay.com</p>
+		<div class="row">
+	        	<div class="col-sm-12">
+
+			    <div class="gallery">
+
+		    <div class="preview">
+		        <img id="preview" src="images/sculpture-3410011_1280.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+		    </div>
+
+		    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+		        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/assyrian-6539384_1280.jpg" alt="" />
+		        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/ai-generated-8665636_1280.jpg" alt=""  />
+		        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/figure-4351804_1280.jpg" alt="" />
+		        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/gallery-3114279_1280.jpg" alt="" />
+		        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/monument-697171_1280.jpg" alt=""  />
+		        
+		    </div>
+    
+</div>
+
+			</div>
+           	
+		</div>
+
+	</main>
+	<footer>
+		<div class="container-fluid">
+	     
+	    	<div class="row">
+	        	<div class="col-sm-6">
+	        	<h3> Web Design Exercise</h3>
+	        	<p> Animal Photography is a website exercise on image galleries available on WebDevStudents.com. The images are royalty-free photos from pixabay.com. JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.</p>
+
+	        	</div>
+
+	        	<div class="col-sm-6">
+	        		<i class="fa fa-instagram" aria-hidden="true">Instagram</i>
+
+
+	        		<i class="fa fa-github" aria-hidden="true">Github</i>
+
+	        		<i class="fa fa-envelope" aria-hidden="true">Email Us</i>
+
+	        	</div>
+	        </div>
+	    </div>
+
+		<small>&copy; Farhiya Khalif. All rights reserved.</small>
+	</footer>
+</body>
+</html>

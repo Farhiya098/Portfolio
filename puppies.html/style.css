@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+#blockquote{
+    background-color: #eeeeee;
+    border-left: 10px solid gray;
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+#header-image{ 
+	background-image:url(images/header.jpg);
+	height: 200px;
+	background-size:cover;
+	background-position: center top;
+	background-repeat:no-repeat;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Merienda', cursive;
+	color: #166484;
+	margin: 0;
+}
+
+h2{
+	font-family: 'Merienda', cursive;
+	color: black;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+	color: #3283cd;
+
+}
+h4{
+	text-align: center;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+main{
+	max-width: 1200px;
+}
+
+
+
+/* Navigation Bar*/
+nav{
+	background-color: lightblue;
+	border-top: 2px slategrey solid;
+	border-bottom: 2px slategrey solid;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+	padding-left: 20px;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color:lightpink;
+}
+nav a:hover {
+	color: white;
+}
+nav a:active {
+	color: lightblue;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 5px solid lightblue;
+	padding: 10px;
+	background-color: lightblue;
+}
+
+.fa{
+	font-size: 4em;
+	color: blue;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
